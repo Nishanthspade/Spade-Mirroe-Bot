@@ -8,7 +8,7 @@ class Config(object):
     OWNER_ID = 720679955
     # Get these values from my.telegram.org
     # to store the channel ID who are authorized to use the bot
-    AUTH_CHANNEL = "-1001309737901"
+    AUTH_CHANNEL = [-1001309737901]
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
